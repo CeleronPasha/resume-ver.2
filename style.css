@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+.about {
+  width: 595px;
+  height: 214px;
+  background: #E25544;
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about__container {
+  padding: 32px 0 24px 40px;
+  color: #FFF;
+}
+
+.about__name {
+  font: 600 30px/37px "Montserrat";
+  margin-bottom: 8px;
+}
+
+.about__profession {
+  font: 400 12px/15px "Montserrat";
+  margin-bottom: 8px;
+}
+
+.about__text {
+  font: 400 10px/15px "Montserrat";
+}
+
+.about__photo {
+  border-radius: 50%;
+  min-width: 114px;
+  height: 114px;
+  margin: 32px 40px 68px 50px;
+  object-fit: cover;
+  object-position: top;
+}

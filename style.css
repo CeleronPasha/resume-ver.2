@@ -8,6 +8,7 @@ body {
   background: #FFFFFF;
 }
 
+/* #about me sections */
 .about {
   width: 595px;
   height: 214px;
@@ -43,4 +44,82 @@ body {
   margin: 32px 40px 68px 50px;
   object-fit: cover;
   object-position: top;
+}
+
+/* main container */
+main {
+  width: 595px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* contacts sections*/
+.contacts {
+  padding: 24px 40px;
+  font: 400 10px/15px "Montserrat";
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts a {
+  color: #485268;
+  text-decoration: none;
+}
+
+/* info sections*/
+.info {
+  margin: 0 auto;
+  border-top: 1px solid #DEE2ED;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__tittle {
+  color: #E25544;
+  font: 500 20px/20px "Montserrat";
+  padding: 24px 0 0 40px;
+  margin: 0; 
+}
+
+.info__text {
+  margin:24px 0; 
+  padding: 0 40px 0 8px;
+  border-left: 1px dashed #DEE2ED;
+}
+
+.info__text__company {
+  font: 500 12px/15px "Montserrat";
+  color: #485268;
+}
+
+.info__text__description {
+  width: 360px;
+  padding-top: 8px;
+  font: 400 10px/15px "Montserrat";
+  color: #485268;
+}
+
+.info__text__span {
+  font: 500 12px/15px "Montserrat";
+  color: #485268;
+}
+
+/* skills-tools sections*/
+.skills {
+  display: flex;
+  width: 409px;
+}
+
+.skills__list {
+  list-style-type: none;
+  width: 50%;
+  border-left: 1px dashed #DEE2ED;
+  padding: 0 40px 0 8px;
+  margin:24px 0;
+  font: 400 10px/15px "Montserrat";
+  color: #485268;
+}
+
+.skills__item {
+  padding-bottom: 8px;
 }
